@@ -1,3 +1,3 @@
 get '/' do
-  "Welcome to home page"
+  haml :index
 end
