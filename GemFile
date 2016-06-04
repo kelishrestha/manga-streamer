@@ -1,0 +1,9 @@
+source 'https://rubygems.org'
+
+gem 'sinatra'
+gem 'tux'
+gem 'pry'
+gem 'rspec'
+gem 'shotgun'
+gem 'haml'
+gem 'nokogiri'
