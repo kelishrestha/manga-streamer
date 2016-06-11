@@ -1,7 +1,10 @@
 require 'rubygems'
 require 'bundler/setup'
 require 'sinatra'
-require 'nokogiri'
+require 'mechanize'
+require 'open-uri'
+require 'pry'
+
 require File.join(File.dirname(__FILE__), 'app.rb')
 
 set :environment, :development
