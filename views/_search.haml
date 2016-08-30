@@ -1,0 +1,6 @@
+- unless @chapters.empty?
+  %h3 Chapters
+  - @chapters.each do |chapter|
+    %a{href: chapter['link']}
+      = chapter['title']
+    %br
