@@ -2,8 +2,16 @@ source 'https://rubygems.org'
 
 gem 'sinatra'
 gem 'tux'
-gem 'pry'
-gem 'rspec'
 gem 'shotgun'
 gem 'haml'
 gem 'nokogiri'
+
+group :development, :test do
+  gem 'awesome_print'
+  gem 'pry'
+  gem 'pry-nav'
+end
+
+group :test do
+  gem 'rspec'
+end
