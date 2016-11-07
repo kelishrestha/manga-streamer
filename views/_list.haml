@@ -1,6 +1,6 @@
-- unless @title_lists.empty?
+- unless @chapters.empty?
   %h3 Manga Lists
-  - @title_lists.each do |list|
+  - @chapters.each do |list|
     %form{method: 'POST', action: "/manga/" + list['title'] + "/chapters"}
       %input{ type: 'hidden', name: 'page_link', value: list['link']}
       %input{ type: 'submit', value: list['title']}
